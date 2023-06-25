@@ -1,0 +1,8 @@
+.am,.en,.math,.sc,.sp {
+    margin: 3px;
+    margin-left: 90px;
+  }
+  .margin {
+    margin-left: 0px;
+  }
+   
