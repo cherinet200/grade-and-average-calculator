@@ -1,6 +1,6 @@
 // const submitbutton = document.querySelector("#submit") 
 
-document.querySelector("#submit").addEventListener("click"function(){
+document.querySelector("#submit").addEventListener("click", function(){
 
 
     const amharic = parseInt(document.querySelector("#am1").value) +
@@ -44,21 +44,16 @@ const Average = total/5
 document.querySelector("#total").innerHTML = "Your total score is " + total
 document.querySelector("#Average").innerHTML = "Your average is " + Average
 
- if(Average > 85){
- document.querySelector("#grade").innerHTML = "Your grade is A"
-}
- else if(Average > 75){
- document.querySelector("#grade").innerHTML = "Your grade is B"
-}
- else if(Average > 65){
- document.querySelector("#grade").innerHTML = "Your grade is C"
-}
- else if(Average > 50){
- document.querySelector("#grade").innerHTML = "Your grade is D"
-}
- else{
- document.querySelector("#grade").innerHTML = "Your grade is F"
+if(Average > 85) {
+    document.querySelector("#grade").innerHTML = "Your grade is A"
+} else if(Average > 75) {
+     document.querySelector("#grade").innerHTML = "Your grade is B"
+} else if(Average > 65) {
+     document.querySelector("#grade").innerHTML = "Your grade is C"
+} else if(Average > 50) {
+     document.querySelector("#grade").innerHTML = "Your grade is D"
+} else {
+     document.querySelector("#grade").innerHTML = "Your grade is F"
 }
 
-  )
-}
+})
