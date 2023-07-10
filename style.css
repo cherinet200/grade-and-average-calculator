@@ -1,8 +1,22 @@
-.am,.en,.math,.sc,.sp {
-    margin: 3px;
-    margin-left: 90px;
-  }
-  .margin {
-    margin-left: 0px;
-  }
-   
+.am,
+.en,
+.math,
+.sc,
+.sp {
+  margin: 3px;
+  margin-left: 90px;
+}
+
+.margin {
+  margin-left: 0px;
+}
+
+button {
+  padding: 10px;
+  border-radius: 10px;
+  background: green;
+}
+
+button:hover {
+  background: rgba(0, 128, 0, 0.7);
+}
